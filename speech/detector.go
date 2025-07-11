@@ -185,24 +185,6 @@ func (sd *Detector) Detect(pcm []float32) (bool, error) {
 	return speechProb > sd.cfg.Threshold, nil
 }
 
-func (sd *Detector) Reset() error {
-	if sd == nil {
-		return fmt.Errorf("invalid nil detector")
-	}
-
-	sd.currSample = 0
-	sd.triggered = false
-	sd.tempEnd = 0
-	for i := 0; i < stateLen; i++ {
-		sd.state[i] = 0
-	}
-	for i := 0; i < contextLen; i++ {
-		sd.ctx[i] = 0
-	}
-
-	return nil
-}
-
 func (sd *Detector) SetThreshold(value float32) {
 	sd.cfg.Threshold = value
 }
