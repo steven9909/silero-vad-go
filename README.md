@@ -10,6 +10,10 @@
 </p>
 <br>
 
+### Modification
+
+Modified to only perform inference on one frame of audio bytes.
+
 ### Requirements
 
 - [Golang](https://go.dev/doc/install) >= v1.21
