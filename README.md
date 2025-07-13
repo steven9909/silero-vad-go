@@ -5,7 +5,7 @@
 </h1>
 <h4 align="center">A simple Golang (CGO + ONNX Runtime) speech detector powered by Silero VAD</h4>
 <p align="center">
-  <a href="https://pkg.go.dev/github.com/streamer45/silero-vad-go"><img src="https://pkg.go.dev/badge/github.com/streamer45/silero-vad-go.svg" alt="Go Reference"></a>
+  <a href="https://pkg.go.dev/github.com/steven9909/silero-vad-go"><img src="https://pkg.go.dev/badge/github.com/steven9909/silero-vad-go.svg" alt="Go Reference"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </p>
 <br>
